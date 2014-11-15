@@ -173,7 +173,7 @@ void setValue(int value) {
 }
 
 void doStrobo() {
-  setValue(1023);
+  setValue(255);
   delay(strobo_an);
   setValue(0);
   delay(strobo_aus);
