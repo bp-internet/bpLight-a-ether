@@ -1,5 +1,15 @@
-// This is a demo of the RBBB running as webserver with the Ether Card
-// 2010-05-28 <jc@wippler.nl> http://opensource.org/licenses/mit-license.php
+// Wiring
+//
+// SI  -> 11
+// SO  -> 12
+// SCK -> 13
+// CS  -> /
+// VCC -> 3V3 !!!
+// GND -> GND
+//
+// (c) by bp-inter.net
+//
+
 
 #include <EtherCard.h>
 
